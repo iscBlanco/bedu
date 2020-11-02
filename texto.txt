@@ -1,0 +1,3 @@
+https://github.com/iscBlanco/bedu.git
+
+para colocar en el repositorio de version de control distribuido
