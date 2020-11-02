@@ -1,2 +1,2 @@
 
-prueba con la conexion del protocolo ssh
+prueba con la de rm cached
