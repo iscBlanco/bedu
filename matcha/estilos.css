@@ -1,19 +1,22 @@
 h1{
     font-family: 'Sriracha', cursive;
-    color:darkslategrey;
+    color:#025157;
     border: solid 4px red;
     border-radius: 10px;
     text-align: center;
 }
 h4{
     text-align: center;
+    color:#46484c;
 }
 form{
+    color:#fff;
     border: solid mediumaquamarine 1px;
     text-align: center;
     
 }
 p{
+    color: #464830;
     text-align: center;
 }
 img{
