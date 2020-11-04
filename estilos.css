@@ -1,3 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin:40px 20px 0 20px;
+    font-size: 0;
+}
+.header > *{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+.logo{
+    width: 15%;
+}
+.navbar{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+
+}
+.actions{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+   
+}
+.actions a{
+    color: #67b54b;
+}
+.actions button{
+    color: white;
+    background: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: none;
+    border-radius: 5px;
+}
+.actions>*{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#ingresa{
+    color:#67b54b;
+
+}
+.lista{
+    color: #025157;
+}
+li{
+    display: inline; 
+    margin-left: 25px;
+    margin-right: 25px; 
+    color: #025157;  
+
+}
 body{
     color:#fffbf7;
 }
@@ -17,7 +79,7 @@ form{
     text-align: center;
     
 }
-button{
+.try{
     background-color: #025157;
     border: none;
     color: white;
@@ -32,7 +94,7 @@ p{
     color: #464830;
     text-align: center;
 }
-img{
+.capterra{
     display: block;
     margin-left: auto;
     margin-right: auto;
