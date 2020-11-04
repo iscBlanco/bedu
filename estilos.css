@@ -1,13 +1,16 @@
+    /*resetear valores*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 .header{
-    margin:40px 20px 0 20px;
     font-size: 0;
+    margin:40px 20px 0 20px;
+   
 }
-.header > *{
+.header >  *{
     display: inline-block;
     font-size: 16px;
     vertical-align: middle;
