@@ -6,10 +6,11 @@
 }
 .navbar ul{
     display: flex;
-    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 li{
-    text-decoration: none;
     color: #025157;
 }
 .header{
@@ -161,6 +162,7 @@ p{
 .videoforma .video{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .forma{
@@ -171,6 +173,23 @@ p{
 .publicar{
     flex: 1;
 }
-.video{
-    flex: 1;
+.articulo{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;    
+    background-color: #fff;
+    color: black;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+}
+.articulos{
+    display: grid;
+    /*
+    grid-template-rows: repeat(2, 1fr)
+    grid-template-columns: repeat(2, 1fr) ;
+    ;*/
+    grid-template: 1fr 1fr/ 1fr 1fr;
+    height: 660px;
+    background-color: #025157;
+    padding: 5% 10%;
 }
