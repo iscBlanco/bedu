@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -55,11 +56,10 @@ body{
     color:#fffbf7;
 }
 h1{
-    margin-left: 40px;
-    margin-right: 40px;
-    font-family: 'Sriracha', cursive;
+    margin: 40px;
+    font-family: 'Alegreya', serif;
+    font-size: 60px;
     color:#025157;
-    border: solid 4px red;
     border-radius: 10px;
     text-align: center;
 }
@@ -73,6 +73,20 @@ form{
     color:#fff;
     text-align: center;
     
+}
+form input{
+    padding: 15px 25px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: solid 1px gray;
+}
+form button{
+    padding: 15px 25px;
+    margin-left: -5px;
+    background-color: #025157;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
 }
 button{
     background-color: #025157;
@@ -95,6 +109,31 @@ p{
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    border: solid red 4px;
-    border-radius: 10px;
+}
+.banner *{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.publicar h3{
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    color: #025157;
+    line-height: 48px;
+}
+.publicar p{
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+.publicar > form{
+    display: flex;
+}
+.publicar > form p{
+    color: #025157;
+    margin-right: 18px;
 }
