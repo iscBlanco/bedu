@@ -181,6 +181,15 @@ p{
     color: black;
     border: 2px solid #dadada;
     border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+}
+.articulo figure{
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50px;
+    height: 80%;
 }
 .articulos{
     display: grid;
@@ -192,4 +201,33 @@ p{
     height: 660px;
     background-color: #025157;
     padding: 5% 10%;
+}
+
+.articulo .content img{
+    width: 50px;
+}
+.articulo .content h3{
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+.articulo .content p{
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+
+}
+.articulo .content a{
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600 ;
+    text-decoration: none;
+}
+.articulo .content >*{
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.articulo .content{
+    padding:5px 20px 40px 40px;
+    flex: 2;
 }
