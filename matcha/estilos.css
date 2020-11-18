@@ -1,33 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap');
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     list-style: none;
     justify-content: center;
     align-items: center;
 }
-li{
+
+li {
     color: #025157;
 }
-.header{
-    font-size: 0;
-    margin: 40px 20px 0 20px ;
-    display: flex;
-    
 
+.header {
+    font-size: 0;
+    margin: 40px 20px 0 20px;
+    display: flex;
 }
-.header >*{
+
+.header>* {
     font-size: 14px;
     vertical-align: middle;
     height: 100%;
     line-height: 45px;
 }
-.logo{
-    width:15%;
+
+.logo {
+    width: 15%;
 }
 
 .navbar li {
@@ -35,66 +38,76 @@ li{
     margin-left: 25px;
     margin-right: 25px;
 }
-.navbar{
-    width:70%;
+
+.navbar {
+    width: 70%;
     text-align: center;
 }
-.actions{
+
+.actions {
     width: 15%;
     text-align: right;
     font-size: 14px;
 }
-.actions a{
+
+.actions a {
     color: #67b54b;
     margin-left: 10px;
     margin-right: 10px;
 }
-.actions button{
+
+.actions button {
     color: white;
     background: #67b54b;
-    padding:12px 14px 12px 14px;
+    padding: 12px 14px 12px 14px;
     border: none;
     border-radius: 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
-body{
-    color:#fffbf7;
+
+body {
+    color: #fffbf7;
 }
-h1{
+
+h1 {
     margin: 40px;
     font-family: 'Alegreya', serif;
     font-size: 60px;
-    color:#025157;
+    color: #025157;
     border-radius: 10px;
     text-align: center;
 }
-h4{
+
+h4 {
     margin: 10px;
     text-align: center;
-    color:#46484c;
+    color: #46484c;
 }
-form{
+
+form {
     margin: 15px;
-    color:#fff;
+    color: #fff;
     text-align: center;
-    
 }
-form input{
+
+form input {
     padding: 15px 25px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     border: solid 1px gray;
 }
-form button{
+
+form button {
     padding: 15px 25px;
     margin-left: -5px;
     background-color: #025157;
     border: none;
     border-top-right-radius: 5px;
-    border-bottom-right-radius:5px ;
+    border-bottom-right-radius: 5px;
 }
-button{
+
+button {
     background-color: #025157;
     border: none;
     color: white;
@@ -103,86 +116,97 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
 }
-p{
+
+p {
     color: #464830;
     text-align: center;
 }
-.capterra{
+
+.capterra {
     display: block;
     padding: 2px;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
-.banner *{
+
+.banner * {
     width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
 }
-.publicar h3{
+
+.publicar h3 {
     font-family: 'Alegreya', serif;
     font-size: 40px;
     color: #025157;
     line-height: 48px;
 }
-.publicar p{
+
+.publicar p {
     font-size: 16px;
     color: #343434;
     line-height: 1.5;
     margin-bottom: 20px;
-
 }
-.publicar > form{
+
+.publicar>form {
     display: flex;
 }
-.publicar > form p{
+
+.publicar>form p {
     color: #025157;
     margin-right: 18px;
 }
-.fixed-header{
+
+.fixed-header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: #fffbf7;
-    z-index: 2 ;
+    z-index: 2;
 }
-.info{
+
+.info {
     margin-top: 285px;
 }
 
-.videoforma{
+.videoforma {
     display: flex;
     width: 70%;
     margin: 100px auto;
 }
-.videoforma .video{
+
+.videoforma .video {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.forma{
+.forma {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 0;
 }
-.publicar{
+
+.publicar {
     flex: 1;
     margin-left: 25px;
 }
-.publicar span{
+
+.publicar span {
     color: black;
 }
-.articulo{
+
+.articulo {
     margin-bottom: 30px;
     margin-left: 15px;
-    margin-right: 15px;    
+    margin-right: 15px;
     background-color: #fff;
     color: black;
     border: 2px solid #dadada;
@@ -192,23 +216,25 @@ p{
     overflow: hidden;
 }
 
-.feature-image{
-    flex: 1; 
+.feature-image {
+    flex: 1;
     width: 40%;
     position: relative;
-    right:-80px;
+    right: -80px;
     height: 80%;
-
 }
-.feature-image img{
+
+.feature-image img {
     vertical-align: middle;
 }
-.feature-image figure, .feature-image img {
+
+.feature-image figure,
+.feature-image img {
     margin-top: 0;
     height: 100%;
-  }
-  
-.articulos{
+}
+
+.articulos {
     display: grid;
     /*
     grid-template-rows: repeat(2, 1fr)
@@ -220,37 +246,42 @@ p{
     padding: 5% 10%;
 }
 
-.articulo .content img{
+.articulo .content img {
     width: 50px;
 }
-.articulo .content h3{
+
+.articulo .content h3 {
     font-size: 24px;
     color: #343434;
     font-weight: 400;
     margin-bottom: 5px;
 }
-.articulo .content p{
+
+.articulo .content p {
     font-size: 16px;
     color: #7e7e7e;
     font-weight: 400;
     margin-bottom: 10px;
-
 }
-.articulo .content a{
+
+.articulo .content a {
     font-size: 16px;
     color: #67b54b;
-    font-weight: 600 ;
+    font-weight: 600;
     text-decoration: none;
 }
-.articulo .content >*{
+
+.articulo .content>* {
     /* margin-bottom: 1rem; */
     margin-top: 0;
 }
-.articulo .content{
-    padding:5px 20px 40px 40px;
+
+.articulo .content {
+    padding: 5px 20px 40px 40px;
     flex: 1;
 }
-.success-stories{
+
+.success-stories {
     background-color: #A1D683;
     padding: 5% 15%;
     display: flex;
@@ -258,22 +289,21 @@ p{
     justify-content: space-around;
 }
 
-.overview h2{
+.overview h2 {
     font-family: 'Alegreya', serif;
     font-size: 51px;
     font-weight: 500;
     color: #025157;
-
 }
 
-.overview p{
+.overview p {
     color: #343434;
     font-family: sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
-.overview button{
+.overview button {
     color: #ffffff;
     background-color: #025157;
     font-family: sans-serif;
@@ -284,14 +314,15 @@ p{
     border-radius: 5px;
 }
 
-/* Estos son los estilos de las cards de success stories */
 
-.success-stories .overview img{
+/* Seccion de success stories */
+
+.success-stories .overview img {
     width: 500px;
     max-width: 100%;
 }
 
-.card{
+.card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -300,20 +331,23 @@ p{
     border: 1px solid rgba(0, 0, 0, .125);
 }
 
-.card *{
+.card * {
     max-width: 370px;
     width: 100%;
     background-color: #fff;
     border-radius: 10px;
 }
-.card-media *{
+
+.card-media * {
     position: relative;
 }
-.card-media figure *{
-    margin:0 0 1rem;
+
+.card-media figure * {
+    margin: 0 0 1rem;
     display: block;
 }
-.card-media .company *{
+
+.card-media .company * {
     position: absolute;
     bottom: -20px;
     right: 20px;
@@ -325,74 +359,34 @@ p{
     justify-content: center;
     align-items: center;
 }
-.card-media .company img >{
+
+.card-media .company img> {
     max-width: 75%;
 }
+
 
 /* Estos son los estilos necesarios para el corrusel */
 
 
 /* Slideshow container */
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
     display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -401,26 +395,137 @@ p{
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
+}
+
+.active,
+.dot:hover {
     background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
+}
+
+
+/* Fading animation */
+
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* Seccion How does it work */
+
+.how-does-it-work {
+    background-color: #fffbf7;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.how-does-it-work .title {
+    color: #025157;
+    font-family: 'Alegreya', serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.how-does-it-work .description {
+    color: #46484c;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.how-does-it-work .description a {
+    color: #67b54b;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.how-does-it-work button {
+    color: #ffffff;
+    background-color: #025157;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 6px 0px 0px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Este es el grid de how does it work */
+
+.steps {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.steps .card-step {
+    background-color: #fff;
+    border: solid 1px #dadada;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.steps .card-step .card-step-image img:first-child {
+    width: 100%;
+    height: 100%;
+}
+
+.steps .card-step .card-step-image img:last-child {
+    position: relative;
+    top: -325px;
+    left: 25px;
+    width: 21px;
+}
+
+.steps .card-step .card-step-body h3 {
+    color: #025157;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.steps .card-step .card-step-body p {
+    color: #46484c;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin: 15px 15px 16px;
+}
+
+.steps .card-step .card-step-body a {
+    color: #67b54b;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0px 15px 0px;
+    text-decoration: none;
+}
