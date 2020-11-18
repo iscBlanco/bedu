@@ -284,6 +284,8 @@ p{
     border-radius: 5px;
 }
 
+/* Estos son los estilos de las cards de success stories */
+
 .success-stories .overview img{
     width: 500px;
     max-width: 100%;
