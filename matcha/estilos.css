@@ -529,3 +529,60 @@ p {
     margin: 0px 15px 0px;
     text-decoration: none;
 }
+
+@media(max-width:575px) {
+    .navbar,
+    .actions {
+        display: none;
+    }
+    .info {
+        margin-top: 130px;
+    }
+    .titulo {
+        font-size: 30px;
+    }
+    .capterra {
+        width: 80%;
+    }
+    .banner>img {
+        width: 100%;
+    }
+    .videoforma {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .publicar h3 {
+        font-size: 25px;
+        line-height: 1.2;
+        margin-top: 30px;
+    }
+    .video video {
+        width: 100%;
+    }
+    .publicar .forma {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .publicar .forma div {
+        height: 50px;
+        margin-top: 10px;
+    }
+    .publicar .forma div>input {
+        width: 60%;
+    }
+    .publicar .forma div button {
+        width: 40%;
+        font-size: small;
+        padding: 16px 10px 17px 5px;
+    }
+    .articulos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        padding-right: 0;
+        padding-left: 0;
+        height: auto;
+    }
+    .articulos .articulo .feature-image {
+        display: none;
+    }
+}
