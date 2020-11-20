@@ -5,18 +5,26 @@
     padding: 0;
 }
 
-.navbar ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
+.form-inline>a {
+    color: #6ABF4B;
+}
+
+.form-inline>button {
+    color: #fff;
+    background-color: #67B54B;
+    border: none;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #025157;
 }
 
 li {
     color: #025157;
 }
 
-.header {
+
+/* .header {
     font-size: 0;
     margin: 40px 20px 0 20px;
     display: flex;
@@ -27,43 +35,10 @@ li {
     vertical-align: middle;
     height: 100%;
     line-height: 45px;
-}
+} */
 
 .logo {
     width: 15%;
-}
-
-.navbar li {
-    color: #025157;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.navbar {
-    width: 70%;
-    text-align: center;
-}
-
-.actions {
-    width: 15%;
-    text-align: right;
-    font-size: 14px;
-}
-
-.actions a {
-    color: #67b54b;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.actions button {
-    color: white;
-    background: #67b54b;
-    padding: 12px 14px 12px 14px;
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 body {
@@ -86,7 +61,7 @@ h4 {
 }
 
 form {
-    margin: 15px;
+    /* margin: 15px; */
     color: #fff;
     text-align: center;
 }
@@ -160,15 +135,6 @@ p {
 .publicar>form p {
     color: #025157;
     margin-right: 18px;
-}
-
-.fixed-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #fffbf7;
-    z-index: 2;
 }
 
 .info {
@@ -289,7 +255,7 @@ p {
     justify-content: space-around;
 }
 
-.overview {
+.success-stories .overview {
     flex: 2;
     padding-right: 100px;
 }
@@ -337,8 +303,11 @@ p {
     border-radius: 10px;
 }
 
-.slideshow-container-dots .slideshow-container .card .card-media figure * {
+.carousel {
     max-width: 370px;
+}
+
+.card {
     width: 100%;
     background-color: #fff;
     border-radius: 10px 10px 0 0;
@@ -351,6 +320,15 @@ p {
 .card-media figure {
     margin: 0 0 1rem;
     display: block;
+}
+
+.card-media img {
+    width: 100%;
+    /*  max-height: 16vw; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    vertical-align: middle;
+    border-style: none;
 }
 
 .card-media .company {
@@ -418,70 +396,56 @@ p {
     border-radius: 5px;
 }
 
-
-/* Estos son los estilos necesarios para el corrusel */
-
-
-/* Slideshow container */
-
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
 }
 
-
-/* Hide the images by default */
-
-.mySlides {
-    display: none;
+.card .card-body h4 {
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+    text-align: left;
 }
 
-
-/* The dots/bullets/indicators */
-
-.dot {
-    cursor: pointer;
-    height: 5px;
-    width: 20px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 2px;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+.card .card-body h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
 
-.active,
-.dot:hover {
-    background-color: #717171;
+.card .card-body .results img {
+    width: 26px;
+    margin-right: 20px;
 }
 
-
-/* Fading animation */
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+.card .card-body .results p {
+    margin-top: 0;
 }
 
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
+.card .card-body .results {
+    display: flex;
+    align-items: center;
+    color: #828282;
 }
 
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
+.card .card-footer {
+    margin-bottom: 20px;
+    background-color: unset;
+    border-top: unset;
+}
+
+.card .card-footer button {
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-size: 13;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 100%;
 }
 
 
@@ -552,7 +516,7 @@ p {
 
 .steps .card-step .card-step-image img:last-child {
     position: relative;
-    top: -300px;
+    top: -260px;
     left: 25px;
     width: 21px;
 }
@@ -582,4 +546,63 @@ p {
     text-align: left;
     margin: 0px 15px 0px;
     text-decoration: none;
+}
+
+@media(max-width:575px) {
+    .success-stories>.overview {
+        padding-right: unset;
+    }
+    .actions {
+        display: none;
+    }
+    .info {
+        margin-top: 130px;
+    }
+    .titulo {
+        font-size: 30px;
+    }
+    .capterra {
+        width: 80%;
+    }
+    .banner>img {
+        width: 100%;
+    }
+    .videoforma {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .publicar h3 {
+        font-size: 25px;
+        line-height: 1.2;
+        margin-top: 30px;
+    }
+    .video video {
+        width: 100%;
+    }
+    .publicar .forma {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .publicar .forma div {
+        height: 50px;
+        margin-top: 10px;
+    }
+    .publicar .forma div>input {
+        width: 60%;
+    }
+    .publicar .forma div button {
+        width: 40%;
+        font-size: small;
+        padding: 16px 10px 17px 5px;
+    }
+    .articulos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        padding-right: 0;
+        padding-left: 0;
+        height: auto;
+    }
+    .articulos .articulo .feature-image {
+        display: none;
+    }
 }
