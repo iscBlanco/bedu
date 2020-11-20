@@ -23,7 +23,8 @@ li {
     color: #025157;
 }
 
-.header {
+
+/* .header {
     font-size: 0;
     margin: 40px 20px 0 20px;
     display: flex;
@@ -34,7 +35,7 @@ li {
     vertical-align: middle;
     height: 100%;
     line-height: 45px;
-}
+} */
 
 .logo {
     width: 15%;
@@ -254,6 +255,11 @@ p {
     justify-content: space-around;
 }
 
+.success-stories .overview {
+    flex: 2;
+    padding-right: 100px;
+}
+
 .overview h2 {
     font-family: 'Alegreya', serif;
     font-size: 51px;
@@ -296,11 +302,14 @@ p {
     border: 1px solid rgba(0, 0, 0, .125);
 }
 
-.card {
+.carousel {
     max-width: 370px;
+}
+
+.card {
     width: 100%;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .card-media {
@@ -491,6 +500,9 @@ p {
 }
 
 @media(max-width:575px) {
+    .success-stories>.overview {
+        padding-right: unset;
+    }
     .actions {
         display: none;
     }
