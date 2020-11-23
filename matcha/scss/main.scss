@@ -10,6 +10,7 @@
             margin-top: 40px;
             margin-bottom: 36px;
             .process {
+                display: flex;
                 margin-bottom: 25px;
                 &>div {
                     &>h3 {
@@ -40,5 +41,36 @@
             padding: 12px;
             width: 180px;
             margin-bottom: 15px;
+        }
+        .card-title {
+            font-size: 24px;
+            color: $gray-text;
+        }
+        .metadata {
+            font-weight: 500;
+            font-size: 14px;
+            color: $light-gray-text;
+            span {
+                color: $light-green-text;
+            }
+        }
+        .card-text {
+            color: $gray-text;
+            font-size: 18px;
+            line-height: 1.5em;
+            min-height: 6em;
+            .read-more a {
+                text-decoration: underline;
+                color: $gray-text;
+                cursor: pointer;
+            }
+        }
+        .author {
+            display: flex;
+            align-items: center;
+            img {
+                width: 60px;
+                border-radius: 50%;
+            }
         }
     }
