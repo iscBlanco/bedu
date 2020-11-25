@@ -224,10 +224,11 @@ p {
 }
 
 .articulo .content p {
-    font-size: 16px;
+    font-size: 14px;
     color: #7e7e7e;
     font-weight: 400;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .articulo .content a {
@@ -243,8 +244,10 @@ p {
 }
 
 .articulo .content {
-    padding: 5px 20px 40px 40px;
+    padding: 5px 5px 5px 5px;
     flex: 1;
+    height: 100%;
+    width: 100%;
 }
 
 .success-stories {
@@ -495,6 +498,7 @@ p {
 /* Este es el grid de how does it work */
 
 .steps {
+    width: 100%;
     margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -509,16 +513,17 @@ p {
     text-align: left;
 }
 
-.steps .card-step .card-step-image img:first-child {
+.steps .illustration img {
     width: 100%;
     height: 100%;
 }
 
-.steps .card-step .card-step-image img:last-child {
+.steps .card-step .icono img {
+    width: 10%;
+    /* height: 25px; */
     position: relative;
-    top: -260px;
-    left: 25px;
-    width: 21px;
+    top: -120px;
+    left: 5px;
 }
 
 .steps .card-step .card-step-body h3 {
