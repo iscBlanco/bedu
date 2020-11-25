@@ -58,6 +58,7 @@
 .blog .card-text {
   color: #4A4A4A;
   font-size: 18px;
+  text-align: unset;
   line-height: 1.5em;
   min-height: 6em;
 }

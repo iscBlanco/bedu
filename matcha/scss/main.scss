@@ -57,6 +57,7 @@
         .card-text {
             color: $gray-text;
             font-size: 18px;
+            text-align: unset;
             line-height: 1.5em;
             min-height: 6em;
             .read-more a {
