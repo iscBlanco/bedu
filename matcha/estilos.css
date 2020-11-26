@@ -518,6 +518,10 @@ p {
     height: 100%;
 }
 
+.how-does-it-work .steps .card-step {
+    position: relative;
+}
+
 .how-does-it-work .steps .card-step .card-step-image .card-step-icon {
     position: absolute;
     top: 25px;
@@ -656,7 +660,7 @@ p {
     .how-does-it-work .steps .card-step .card-step-image .card-step-icon {
         position: absolute;
         left: 25px;
-        top: 25px;
+        top: 15px;
         width: 21px;
     }
 }
